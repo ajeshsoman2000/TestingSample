@@ -1,7 +1,7 @@
 package com.example.myunittestsample
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import androidx.test.runner.AndroidJUnit4
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.myunittestsample.utils.getOrAwaitValue
 import org.junit.After
 import org.junit.Assert.assertEquals
