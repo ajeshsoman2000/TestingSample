@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyUnitTestSample</string>
+    <string name="userid_hint">Enter user id</string>
+    <string name="password_hint">Enter password</string>
+    <string name="login_button_text">Login</string>
+    <string name="register_button_text">Register</string>
+    <string name="welcome">Welcome %s</string>
+</resources>
