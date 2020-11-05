@@ -61,7 +61,7 @@ class MainViewmodelUITest {
         onView(withId(R.id.btnLogin)).perform(ViewActions.click())
         onView(withId(R.id.tilUserID))
             .check(matches(tilHasError(ALL_FIELDS_MANDATORY)))
-        onView(withId(R.id.tilUserID))
+        onView(withId(R.id.tilPassword))
             .check(matches(tilHasError(ALL_FIELDS_MANDATORY)))
     }
 
